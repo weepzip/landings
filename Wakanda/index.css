@@ -506,12 +506,16 @@ nav.burger ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   background-color: #FFFFFF;
   box-shadow: var(--lite-box-shadow);
+  cursor: pointer;
 }
 
+.social-proof-elem:hover {
+  box-shadow: var(--main-box-shadow);
+}
 
 /* ===/social-proof=== */
 

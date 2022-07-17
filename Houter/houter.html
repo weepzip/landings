@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Houter</title>
+    <link rel="stylesheet" href="houter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header__container">
+          <div class="header-logo logo">
+            <div class="header-logo__container logo__container">
+              <div class="header-logo__rectangle-back logo__rectangle-back"></div>
+              <div class="header-logo__rectangle-front logo__rectangle-front"></div>
+            </div>
+            <div class="header-logo__title-container logo__title-container">
+              <h2>Hounter</h2>
+            </div>
+          </div>
+          <div class="header-nav__container">
+            <nav class="header-nav line">
+              <ul class="header-nav__list">
+                <li class="header-nav__elem">
+                  <a href="">
+                    <div>
+                      <h3>About Us</h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="header-nav__elem">
+                  <a href="">
+                    <div>
+                      <h3>Article</h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="header-nav__elem">
+                  <div>
+                    <h3>Property</h3>
+                    <div class="header-nav__elem-icon">
+                      <svg id="arrow-down" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m12 13.169 4.95-4.95 1.414 1.414L12 15.997 5.636 9.633 7.05 8.219l4.95 4.95Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <ul class="header-nav__elem-list">
+                    <li>
+                      <a href="">
+                        <div>some</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div>items</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div>on the</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div>list</div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__main-action-button primary-button">Sign Up</button>
+            <button class="header__menu-button secondary-button">Menu</button>
+          </div>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-wrapper">
+            <div class="hero-slogan">
+              <div class="hero-slogan__title">
+                <h1>find the place to live <span>your dreams</span> easily here</h1>
+              </div>
+              <div class="hero-slogan__text">
+                <p>Everything you need about finding your place to live will be here, where it will be easier for you</p>
+              </div>
+            </div>
+            <div class="hero-search">
+              <input 
+                type="search" name="hero-search-input" id="" 
+                class="hero-search__input" 
+                placeholder="Search for the location you want"
+              >
+              <div class="hero-search__map-marker-container">
+                <svg id="map-marker" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m12 20.9 4.95-4.95a7 7 0 1 0-9.9 0L12 20.9Zm0 2.828-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728ZM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 2a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"></path>
+                </svg>
+              </div>
+              <button type="search" id="" class="hero-search__button primary-button">
+                <div class="hero-search__button-text">Search</div>
+                <div class="hero-search__button-arrow">
+                  <svg id="right-arrow" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m13.172 11.997-4.95-4.95 1.414-1.414L16 11.997 9.636 18.36l-1.414-1.414 4.95-4.95Z"></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="hero-partners">
+              <h3>Our partnership</h3>
+              <ul class="hero-partners__list">
+                <li class="hero-partners__elem">
+                  <a href="">
+                    <div>
+                      <img src="./data/logos/traveloka.png" alt="" class="hero-partners__image">
+                    </div>
+                  </a>
+                </li>
+                <li class="hero-partners__elem">
+                  <a href="">
+                    <div>
+                      <img src="./data/logos/tiket-com.png" alt="" class="hero-partners__image">
+                    </div>
+                  </a>
+                </li>
+                <li class="hero-partners__elem">
+                  <a href="">
+                    <div>
+                      <img src="./data/logos/airbnb.png" alt="" class="hero-partners__image">
+                    </div>
+                  </a>
+                </li>
+                <li class="hero-partners__elem">
+                  <a href="">
+                    <div>
+                      <img src="./data/logos/tripadvisor.png" alt="" class="hero-partners__image">
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="hero-background-container">
+          <div class="hero-background-image-container">
+            <img src="./data/hero-background.png" alt="" class="hero-background-image">
+            <div class="hero-background-image-gradient">
+              <div class="hero-strengths">
+                <div class="hero-strengths__scroll">
+                  <div class="hero-strengths-card card-1">
+                    <div class="hero-strengths-card__image-container card-1">
+                      <img src="./data/hero-card1-pic1.png" alt="" class="hero-strengths-card__image card-1">
+                      <img src="./data/hero-card1-pic2.png" alt="" class="hero-strengths-card__image card-1">
+                      <img src="./data/hero-card1-pic3.png" alt="" class="hero-strengths-card__image card-1">
+                    </div>
+                    <div class="hero-strengths-card__content card-1">
+                      <div class="hero-strengths-card__title card-1"><h3>1K+ people</h3></div>
+                      <div class="hero-strengths-card__text card-1">successfully getting home</div>
+                    </div>
+                  </div>
+                  <div class="hero-strengths-card card-2">
+                    <div class="hero-strengths-card__image-container card-2">
+                      <img src="./data/hero-card2-pic1.png" alt="" class="hero-strengths-card__image card-2">
+                    </div>
+                    <div class="hero-strengths-card__content card-2">
+                      <div class="hero-strengths-card__title card-2"><h3>56 Houses</h3></div>
+                      <div class="hero-strengths-card__text card-2">sold monthly</div>
+                    </div>
+                  </div>
+                  <div class="hero-strengths-card card-3">
+                    <div class="hero-strengths-card__image-container card-3">
+                      <img src="./data/hero-card3-pic1.png" alt="" class="hero-strengths-card__image card-3">
+                    </div>
+                    <div class="hero-strengths-card__content card-3">
+                      <div class="hero-strengths-card__title card-3"><h3>4K+</h3></div>
+                      <div class="hero-strengths-card__text card-3">people looking for new homes</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-recomendations"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="features-container">
+          <div class="features-header">
+            <div class="features-title-container">
+              <div class="features-subtitle"><h3>Our recomendations</h3></div>
+              <div class="features-title"><h1>featured house</h1></div>
+            </div>
+            <ul class="features-category__list">
+              <li class="features-category__elem">
+                <button class="features-category__button secondary-button">
+                  <div class="features-category__elem-image-container">
+                    <svg id="house" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19 21H5a1 1 0 0 1-1-1v-9H1l10.327-9.388a1 1 0 0 1 1.346 0L23 11h-3v9a1 1 0 0 1-1 1Zm-6-2h5V9.157l-6-5.454-6 5.454V19h5v-6h2v6Z"></path>
+                    </svg>
+                  </div>
+                  <div class="features-category__elem-name">House</div>
+                </button>
+              </li>
+              <li class="features-category__elem">
+                <button class="features-category__button secondary-button">
+                  <div class="features-category__elem-image-container">
+                    <svg id="villa" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 18.997v-13.3a1 1 0 0 1 .658-.94l9.671-3.516a.5.5 0 0 1 .671.47v4.953l6.316 2.105a1 1 0 0 1 .684.95v9.278h2v2H1v-2h2Zm2 0h7V3.852L5 6.398v12.6Zm14 0V10.44l-5-1.667v10.225h5Z"></path>
+                    </svg>
+                  </div>
+                  <div class="features-category__elem-name">Villa</div>
+                </button>
+              </li>
+              <li class="features-category__elem">
+                <button class="features-category__button secondary-button">
+                  <div class="features-category__elem-image-container">
+                    <svg id="apartment" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 19h2v2H1v-2h2V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v15h4v-8h-2V9h3a1 1 0 0 1 1 1v9ZM5 5v14h8V5H5Zm2 6h4v2H7v-2Zm0-4h4v2H7V7Z"></path>
+                    </svg>
+                  </div>
+                  <div class="features-category__elem-name">Apartment</div>
+                </button>
+              </li>
+            </ul>
+            <div class="features-scroll-buttons">
+              <button class="features-scroll-left-button secondary-button">
+                <svg id="left-arrow" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m10.828 11.997 4.95 4.95-1.414 1.414L8 11.997l6.364-6.364 1.414 1.414-4.95 4.95Z"></path>
+                </svg>
+              </button>
+              <button class="features-scroll-right-button secondary-button">
+                <svg>
+                  <use xlink:href="#right-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="features-content">
+            <!-- Feature elements -->
+            <!-- Element 1 -->
+            <div class="features-content-elem">
+              <div class="features-content-elem__image-container">
+                <img src="./data/features-elem-1.png" alt="" class="features-content-elem__image">
+                <div class="features-content-elem__actuality">
+                  <div class="features-content-elem__actuality-icon-container">
+                    <svg id="fire" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 23a7.5 7.5 0 0 1-5.138-12.963C8.204 8.774 11.5 6.5 11 1.5c6 4 9 8 3 14 1 0 2.5 0 5-2.47.27.773.5 1.604.5 2.47A7.5 7.5 0 0 1 12 23Z"></path>
+                    </svg>
+                  </div>
+                  <div class="features-content-elem__actuality-text">popular</div>
+                </div>
+              </div>
+              <div class="features-content-elem__info">
+                <div class="features-content-elem__name">
+                  <a href=""><h2>roselands house</h2></a>
+                </div>
+                <div class="features-content-elem__price">35.000.000</div>
+              </div>
+              <div class="features-content-elem__customer">
+                <div class="features-content-elem__customer-image-container">
+                  <img 
+                    src="./data/features-elem-1-customer.png" alt="" 
+                    class="features-content-elem__customer-image"
+                  >
+                </div>
+                <div class="features-content-elem__customer-info">
+                  <div class="features-content-elem__customer-name">
+                    <a href=""><h3>Dianne Russell</h3></a>
+                  </div>
+                  <div class="features-content-elem__customer-address">
+                    Manchester, Kentucky
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Element 2 -->
+            <div class="features-content-elem">
+              <div class="features-content-elem__image-container">
+                <img src="./data/features-elem-2.png" alt="" class="features-content-elem__image">
+                <div class="features-content-elem__actuality">
+                  <div class="features-content-elem__actuality-icon-container">
+                    <svg id="house-filled" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 19.998a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.488a1 1 0 0 1 .386-.79l8-6.222a1 1 0 0 1 1.228 0l8 6.222a1 1 0 0 1 .386.79v10.51Zm-10-7v6h2v-6h-2Z"></path>
+                    </svg>
+                  </div>
+                  <div class="features-content-elem__actuality-text">new house</div>
+                </div>
+              </div>
+              <div class="features-content-elem__info">
+                <div class="features-content-elem__name">
+                  <a href=""><h2>woodlandside</h2></a>
+                </div>
+                <div class="features-content-elem__price">20.000.000</div>
+              </div>
+              <div class="features-content-elem__customer">
+                <div class="features-content-elem__customer-image-container">
+                  <img 
+                    src="./data/features-elem-2-customer.png" alt="" 
+                    class="features-content-elem__customer-image"
+                  >
+                </div>
+                <div class="features-content-elem__customer-info">
+                  <div class="features-content-elem__customer-name">
+                    <a href=""><h3>Robert Fox</h3></a>
+                  </div>
+                  <div class="features-content-elem__customer-address">
+                    Dr. San Jose, South Dakota
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Element 3 -->
+            <div class="features-content-elem">
+              <div class="features-content-elem__image-container">
+                <img src="./data/features-elem-3.png" alt="" class="features-content-elem__image">
+                <div class="features-content-elem__actuality">
+                  <div class="features-content-elem__actuality-icon-container">
+                    <svg id="wallet" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22 6h-7a6 6 0 1 0 0 12h7v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2Zm-7 2h8v8h-8a4 4 0 1 1 0-8Zm0 3v2h3v-2h-3Z"></path>
+                    </svg>
+                  </div>
+                  <div class="features-content-elem__actuality-text">best deals</div>
+                </div>
+              </div>
+              <div class="features-content-elem__info">
+                <div class="features-content-elem__name">
+                  <a href=""><h2>the old lighthouse</h2></a>
+                </div>
+                <div class="features-content-elem__price">44.000.000</div>
+              </div>
+              <div class="features-content-elem__customer">
+                <div class="features-content-elem__customer-image-container">
+                  <img 
+                    src="./data/features-elem-3-customer.png" alt="" 
+                    class="features-content-elem__customer-image"
+                  >
+                </div>
+                <div class="features-content-elem__customer-info">
+                  <div class="features-content-elem__customer-name">
+                    <a href=""><h3>Ronald Richards</h3></a>
+                  </div>
+                  <div class="features-content-elem__customer-address">
+                    Santa Ana, Illinois
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Element 4 -->
+            <div class="features-content-elem">
+              <div class="features-content-elem__image-container">
+                <img src="./data/features-elem-4.png" alt="" class="features-content-elem__image">
+                <div class="features-content-elem__actuality">
+                  <div class="features-content-elem__actuality-icon-container">
+                    <svg>
+                      <use xlink:href="#fire"></use>
+                    </svg>
+                  </div>
+                  <div class="features-content-elem__actuality-text">popular</div>
+                </div>
+              </div>
+              <div class="features-content-elem__info">
+                <div class="features-content-elem__name">
+                  <a href=""><h2>cosmo's house</h2></a>
+                </div>
+                <div class="features-content-elem__price">22.000.000</div>
+              </div>
+              <div class="features-content-elem__customer">
+                <div class="features-content-elem__customer-image-container">
+                  <img 
+                    src="./data/features-elem-4-customer.png" alt="" 
+                    class="features-content-elem__customer-image"
+                  >
+                </div>
+                <div class="features-content-elem__customer-info">
+                  <div class="features-content-elem__customer-name">
+                    <a href=""><h3>Jenny Wilson</h3></a>
+                  </div>
+                  <div class="features-content-elem__customer-address">
+                    Preston Rd. Inglewood, Maine 98380
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Element 5 -->
+            <div class="features-content-elem">
+              <div class="features-content-elem__image-container">
+                <img src="./data/features-elem-1.png" alt="" class="features-content-elem__image">
+                <div class="features-content-elem__actuality">
+                  <div class="features-content-elem__actuality-icon-container">
+                    <svg>
+                      <use xlink:href="#fire"></use>
+                    </svg>
+                  </div>
+                  <div class="features-content-elem__actuality-text">popular</div>
+                </div>
+              </div>
+              <div class="features-content-elem__info">
+                <div class="features-content-elem__name">
+                  <a href=""><h2>roselands house</h2></a>
+                </div>
+                <div class="features-content-elem__price">35.000.000</div>
+              </div>
+              <div class="features-content-elem__customer">
+                <div class="features-content-elem__customer-image-container">
+                  <img 
+                    src="./data/features-elem-1-customer.png" alt="" 
+                    class="features-content-elem__customer-image"
+                  >
+                </div>
+                <div class="features-content-elem__customer-info">
+                  <div class="features-content-elem__customer-name">
+                    <a href=""><h3>Dianne Russell</h3></a>
+                  </div>
+                  <div class="features-content-elem__customer-address">
+                    Manchester, Kentucky
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Element 6 -->
+            <div class="features-content-elem">
+              <div class="features-content-elem__image-container">
+                <img src="./data/features-elem-2.png" alt="" class="features-content-elem__image">
+                <div class="features-content-elem__actuality">
+                  <div class="features-content-elem__actuality-icon-container">
+                    <svg>
+                      <use xlink:href="#house-filled"></use>
+                    </svg>
+                  </div>
+                  <div class="features-content-elem__actuality-text">new house</div>
+                </div>
+              </div>
+              <div class="features-content-elem__info">
+                <div class="features-content-elem__name">
+                  <a href=""><h2>woodlandside</h2></a>
+                </div>
+                <div class="features-content-elem__price">20.000.000</div>
+              </div>
+              <div class="features-content-elem__customer">
+                <div class="features-content-elem__customer-image-container">
+                  <img 
+                    src="./data/features-elem-2-customer.png" alt="" 
+                    class="features-content-elem__customer-image"
+                  >
+                </div>
+                <div class="features-content-elem__customer-info">
+                  <div class="features-content-elem__customer-name">
+                    <a href=""><h3>Robert Fox</h3></a>
+                  </div>
+                  <div class="features-content-elem__customer-address">
+                    Dr. San Jose, South Dakota
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Element 7 -->
+            <div class="features-content-elem">
+              <div class="features-content-elem__image-container">
+                <img src="./data/features-elem-3.png" alt="" class="features-content-elem__image">
+                <div class="features-content-elem__actuality">
+                  <div class="features-content-elem__actuality-icon-container">
+                    <svg>
+                      <use xlink:href="#wallet"></use>
+                    </svg>
+                  </div>
+                  <div class="features-content-elem__actuality-text">best deals</div>
+                </div>
+              </div>
+              <div class="features-content-elem__info">
+                <div class="features-content-elem__name">
+                  <a href=""><h2>the old lighthouse</h2></a>
+                </div>
+                <div class="features-content-elem__price">44.000.000</div>
+              </div>
+              <div class="features-content-elem__customer">
+                <div class="features-content-elem__customer-image-container">
+                  <img 
+                    src="./data/features-elem-3-customer.png" alt="" 
+                    class="features-content-elem__customer-image"
+                  >
+                </div>
+                <div class="features-content-elem__customer-info">
+                  <div class="features-content-elem__customer-name">
+                    <a href=""><h3>Ronald Richards</h3></a>
+                  </div>
+                  <div class="features-content-elem__customer-address">
+                    Santa Ana, Illinois
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Element 8 -->
+            <div class="features-content-elem">
+              <div class="features-content-elem__image-container">
+                <img src="./data/features-elem-4.png" alt="" class="features-content-elem__image">
+                <div class="features-content-elem__actuality">
+                  <div class="features-content-elem__actuality-icon-container">
+                    <svg>
+                      <use xlink:href="#fire"></use>
+                    </svg>
+                  </div>
+                  <div class="features-content-elem__actuality-text">popular</div>
+                </div>
+              </div>
+              <div class="features-content-elem__info">
+                <div class="features-content-elem__name">
+                  <a href=""><h2>cosmo's house</h2></a>
+                </div>
+                <div class="features-content-elem__price">22.000.000</div>
+              </div>
+              <div class="features-content-elem__customer">
+                <div class="features-content-elem__customer-image-container">
+                  <img 
+                    src="./data/features-elem-4-customer.png" alt="" 
+                    class="features-content-elem__customer-image"
+                  >
+                </div>
+                <div class="features-content-elem__customer-info">
+                  <div class="features-content-elem__customer-name">
+                    <a href=""><h3>Jenny Wilson</h3></a>
+                  </div>
+                  <div class="features-content-elem__customer-address">
+                    Preston Rd. Inglewood, Maine 98380
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="cta-container">
+          <div class="cta-content-container">
+            <div class="cta-content">
+              <div class="cta-content-featured-house">
+                <div class="cta-content-featured-house__subtitle">
+                  <h3>ready to sell!</h3>
+                </div>
+                <div class="cta-content-featured-house__title">
+                  <h1>let's tour and see our house</h1>
+                </div>
+                <div class="cta-content-featured-house__text">
+                  Houses recommended by our partners that have been curated to become the home of your dreams!
+                </div>
+              </div>
+              <div class="cta-content-house-detail">
+                <h3>house detail</h3>
+                <ul class="cta-content-house-detail__list">
+                  <li class="cta-content-house-detail__elem">
+                    <div class="cta-content-house-detail__elem-icon">
+                      <svg id="bed" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 10.78V8c0-1.65-1.35-3-3-3h-4c-.77 0-1.47.3-2 .78-.53-.48-1.23-.78-2-.78H6C4.35 5 3 6.35 3 8v2.78c-.61.55-1 1.34-1 2.22v6h2v-2h16v2h2v-6c0-.88-.39-1.67-1-2.22ZM14 7h4c.55 0 1 .45 1 1v2h-6V8c0-.55.45-1 1-1ZM5 8c0-.55.45-1 1-1h4c.55 0 1 .45 1 1v2H5V8Zm-1 7v-2c0-.55.45-1 1-1h14c.55 0 1 .45 1 1v2H4Z"></path>
+                      </svg>
+                    </div>
+                    <div class="cta-content-house-detail__elem-name">4 bedrooms</div>
+                  </li>
+                  <li class="cta-content-house-detail__elem">
+                    <div class="cta-content-house-detail__elem-icon">
+                      <svg id="bath" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 9a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
+                        <path d="M20 13V4.83C20 3.27 18.73 2 17.17 2c-.75 0-1.47.3-2 .83l-1.25 1.25c-.16-.05-.33-.08-.51-.08-.4 0-.77.12-1.08.32l2.76 2.76c.2-.31.32-.68.32-1.08 0-.18-.03-.34-.07-.51l1.25-1.25a.828.828 0 0 1 1.41.59V13h-6.85c-.3-.21-.57-.45-.82-.72l-1.4-1.55c-.19-.21-.43-.38-.69-.5A2.251 2.251 0 0 0 5 12.25V13H2v6c0 1.1.9 2 2 2 0 .55.45 1 1 1h14c.55 0 1-.45 1-1 1.1 0 2-.9 2-2v-6h-2Zm0 6H4v-4h16v4Z"></path>
+                      </svg>
+                    </div>
+                    <div class="cta-content-house-detail__elem-name">2 bathrooms</div>
+                  </li>
+                  <li class="cta-content-house-detail__elem">
+                    <div class="cta-content-house-detail__elem-icon">
+                      <svg id="car" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 20H5v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V11l2.48-5.788A2 2 0 0 1 6.32 4h11.36a2 2 0 0 1 1.838 1.212L22 11v10a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1Zm1-7H4v5h16v-5ZM4.176 11h15.648l-2.143-5H6.32l-2.143 5h-.001ZM6.5 17a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm11 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"></path>
+                      </svg>
+                    </div>
+                    <div class="cta-content-house-detail__elem-name">1 carport</div>
+                  </li>
+                  <li class="cta-content-house-detail__elem">
+                    <div class="cta-content-house-detail__elem-icon">
+                      <svg id="stairs" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 5v14H5V5h14Zm0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2Zm-1 3h-4.42v3.33H11v3.33H8.42V16H6v2h4.42v-3.33H13v-3.33h2.58V8H18V6Z"></path>
+                      </svg>
+                    </div>
+                    <div class="cta-content-house-detail__elem-name">2 floors</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="cta-contact-info">
+              <div class="cta-contact-info-container">
+                <div class="cta-contact-info-avatar-container">
+                  <a href="">
+                    <img src="./data/features-elem-1-customer.png" alt="" 
+                      class="cta-contact-info-avatar"
+                    >
+                  </a>
+                </div>
+                <div class="cta-contact-info-manager">
+                  <div class="cta-contact-info-manager__name">
+                    <a href=""><h3>Dannie Russell</h3></a>
+                  </div>
+                  <div class="cta-contact-info-manager__post">manager director</div>
+                </div>
+              </div>
+              <div class="cta-contact-info-button__container">
+                <button class="cta-contact-info-button primary-button">
+                  <div class="cta-contact-info-button__icon">
+                    <svg id="phone-filled" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z"></path>
+                    </svg>
+                  </div>
+                  <div class="cta-contact-info-button__text">contact now</div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="cta-image-container">
+            <img src="./data/cta-1.png" alt="" class="cta-image image-1">
+            <img src="./data/cta-2.png" alt="" class="cta-image image-2">
+            <img src="./data/cta-3.png" alt="" class="cta-image image-3">
+            <img src="./data/cta-4.png" alt="" class="cta-image image-4">
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="feedback-container">
+          <div class="feedback-header">
+            <div class="feedback-header__subtitle">
+              <h3>see our review</h3>
+            </div>
+            <div class="feedback-header__title">
+              <h1>what our user say about us</h1>
+            </div>
+          </div>
+          <div class="feedback-content">
+            <div class="feedback-content-scroll">
+              <!-- FEEDBACK CARDS -->
+              <!-- CARD 1 -->
+              <div class="feedback-card">
+                <div class="feedback-card__image">
+                  <img src="./data/feedback-card-1.png" alt="">
+                  <div class="feedback-card__image-filter"></div>
+                </div>
+                <div class="feedback-card__review">
+                  <div class="feedback-card__content">
+                    <div class="feedback-card__title">
+                      <h2>My house sold out fast!</h2>
+                    </div>
+                    <div class="feedback-card__text">
+                      I was finally able to sell my house quickly through Hounter 
+                      by immediately setting me up with people who wanted my house. 
+                      I also do not get a discount from the sale of my house. Awesome!
+                    </div>
+                  </div>
+                  <div class="feedback-card__author">
+                    <div class="feedback-card__avatar-container">
+                      <a href="">
+                        <img src="./data/features-elem-2-customer.png" alt="" class="feedback-card__avatar">
+                      </a>
+                    </div>
+                    <div class="feedback-card__info">
+                      <div class="feedback-card__name">
+                        <a href=""><h3>Courtney Henry</h3></a>
+                      </div>
+                      <div class="feedback-card__post">COE Andarafish</div>
+                    </div>
+                    <div class="feedback-card__rating">
+                      <div class="feedback-card__star-container">
+                        <svg id="rating-star" class="rating-star-svg" width="20" height="20" fill="currentColor" color="currentColor" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M12 2.5 8.942 8.739 2 9.746l5.03 4.916L5.826 21.5 12 18.21l6.174 3.29-1.194-6.838L22 9.746l-6.904-1.007L11.999 2.5Z"></path>
+                        </svg>
+                      </div>
+                      <div class="feedback-card__rating-value">4.3</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 -->
+              <div class="feedback-card">
+                <div class="feedback-card__image">
+                  <img src="./data/feedback-card-2.png" alt="">
+                  <div class="feedback-card__image-filter"></div>
+                </div>
+                <div class="feedback-card__review">
+                  <div class="feedback-card__content">
+                    <div class="feedback-card__title">
+                      <h2>Best! I got the house I wanted through Hounter</h2>
+                    </div>
+                    <div class="feedback-card__text">
+                      Through this website I can get a house with the type and specifications 
+                      I want very easily, without a complicated process to be able to find 
+                      information on the house we want.
+                    </div>
+                  </div>
+                  <div class="feedback-card__author">
+                    <div class="feedback-card__avatar-container">
+                      <a href="">
+                        <img src="./data/features-elem-1-customer.png" alt="" class="feedback-card__avatar">
+                      </a>
+                    </div>
+                    <div class="feedback-card__info">
+                      <div class="feedback-card__name">
+                        <a href=""><h3>Dianne Russell</h3></a>
+                      </div>
+                      <div class="feedback-card__post">Manager Director</div>
+                    </div>
+                    <div class="feedback-card__rating">
+                      <div class="feedback-card__star-container">
+                        <svg id="rating-star" class="rating-star-svg" width="20" height="20" fill="currentColor" color="currentColor" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M12 2.5 8.942 8.739 2 9.746l5.03 4.916L5.826 21.5 12 18.21l6.174 3.29-1.194-6.838L22 9.746l-6.904-1.007L11.999 2.5Z"></path>
+                        </svg>
+                      </div>
+                      <div class="feedback-card__rating-value">4.6</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 3 -->
+              <div class="feedback-card">
+                <div class="feedback-card__image">
+                  <img src="./data/feedback-card-3.png" alt="">
+                  <div class="feedback-card__image-filter"></div>
+                </div>
+                <div class="feedback-card__review">
+                  <div class="feedback-card__content">
+                    <div class="feedback-card__title">
+                      <h2>Through the Hounter, I can get a house for my self</h2>
+                    </div>
+                    <div class="feedback-card__text">
+                      By looking for information about what kind of house we want, 
+                      we managed to get the house we wanted very quickly, and directly 
+                      connected with the seller to be able to ask about the details, 
+                      very helpful!
+                    </div>
+                  </div>
+                  <div class="feedback-card__author">
+                    <div class="feedback-card__avatar-container">
+                      <a href="">
+                        <img src="./data/features-elem-4-customer.png" alt="" class="feedback-card__avatar">
+                      </a>
+                    </div>
+                    <div class="feedback-card__info">
+                      <div class="feedback-card__name">
+                        <a href=""><h3>Esther Howard</h3></a>
+                      </div>
+                      <div class="feedback-card__post">head of markerting</div>
+                    </div>
+                    <div class="feedback-card__rating">
+                      <div class="feedback-card__star-container">
+                        <svg id="rating-star" class="rating-star-svg" width="20" height="20" fill="currentColor" color="currentColor" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M12 2.5 8.942 8.739 2 9.746l5.03 4.916L5.826 21.5 12 18.21l6.174 3.29-1.194-6.838L22 9.746l-6.904-1.007L11.999 2.5Z"></path>
+                        </svg>
+                      </div>
+                      <div class="feedback-card__rating-value">4.8</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /FEEDBACK CARDS -->
+            </div>
+          </div>
+          <div class="feedback-pagination">
+            <div class="feedback-pagination__circle-container">
+              <div class="feedback-pagination__circle"></div>
+            </div>
+            <div class="feedback-pagination__circle-container">
+              <div class="feedback-pagination__circle active"></div>
+            </div>
+            <div class="feedback-pagination__circle-container">
+              <div class="feedback-pagination__circle"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="articles">
+        <div class="articles-container">
+          <div class="articles__header">
+            <div class="articles__subtitle">
+              <h3>See tips and trick from our partnership</h3>
+            </div>
+            <div class="articles__title">
+              <h1>Find out more about selling and buying homes</h1>
+            </div>
+            <div class="articles__button primary-button">more articles</div>
+          </div>
+          <div class="articles-content">
+            <!-- ARTICLE ELEMS -->
+            <div class="articles-content__articles">
+              <!-- ELEM 2 -->
+              <div class="articles-elem">
+                <div class="articles-elem__image-container">
+                  <a href=""><img src="./data/article-2.png" alt="" class="articles-elem__image"></a>
+                </div>
+                <div class="articles-elem__content">
+                  <div class="articles-elem__author">
+                    <div class="articles-elem__avatar-container">
+                      <a href=""><img src="./data/features-elem-1-customer.png" alt="" class="articles-elem__avatar"></a>
+                    </div>
+                    <div class="articles-elem__name">
+                      <a href=""><h3>Dianne Russell</h3></a>
+                    </div>
+                  </div>
+                  <div class="articles-elem__title">
+                    <a href=""><h2>The things we need to check when we want to buy a house</h2></a>
+                  </div>
+                  <div class="articles-elem__description">
+                    Want to buy a house but are unsure about what we should know, 
+                    here I will try to explain what we should know and check when 
+                    we want to buy a house
+                  </div>
+                  <div class="articles-elem__info">
+                    <div class="articles-elem__time-icon">
+                      <svg id="clock-filled" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2Zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41Z"></path>
+                      </svg>
+                    </div>
+                    <div class="articles-elem__time">4 min read</div><tr>
+                    <div class="articles-elem__date">25 Apr 2021</div>
+                  </div>
+                </div>
+              </div>
+              <!-- ELEM 3 -->
+              <div class="articles-elem">
+                <div class="articles-elem__image-container">
+                  <a href=""><img src="./data/article-3.png" alt="" class="articles-elem__image"></a>
+                </div>
+                <div class="articles-elem__content">
+                  <div class="articles-elem__author">
+                    <div class="articles-elem__avatar-container">
+                      <img src="./data/features-elem-4-customer.png" alt="" class="articles-elem__avatar">
+                    </div>
+                    <div class="articles-elem__name">
+                      <a href=""><h3>Cortney Henry</h3></a>
+                    </div>
+                  </div>
+                  <div class="articles-elem__title">
+                    <a href=""><h2>7 Ways to distinguish the quality of the house we want to buy</h2></a>
+                  </div>
+                  <div class="articles-elem__description">
+                    Want to buy a house but are unsure about what we should know, 
+                    here I will try to explain what we should know and check when 
+                    we want to buy a house
+                  </div>
+                  <div class="articles-elem__info">
+                    <div class="articles-elem__time-icon">
+                      <svg id="clock-filled" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2Zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41Z"></path>
+                      </svg>
+                    </div>
+                    <div class="articles-elem__time">6 min read</div><tr>
+                    <div class="articles-elem__date">25 Apr 2021</div>
+                  </div>
+                </div>
+              </div>
+              <!-- ELEM 4 -->
+              <div class="articles-elem">
+                <div class="articles-elem__image-container">
+                  <a href=""><img src="./data/article-4.png" alt="" class="articles-elem__image"></a>
+                </div>
+                <div class="articles-elem__content">
+                  <div class="articles-elem__author">
+                    <div class="articles-elem__avatar-container">
+                      <a href="">
+                        <img src="./data/features-elem-2-customer.png" alt="" 
+                          class="articles-elem__avatar">
+                      </a>
+                    </div>
+                    <div class="articles-elem__name"><h3>Darlene Robertson</h3></div>
+                  </div>
+                  <div class="articles-elem__title">
+                    <a href=""><h2>The best way to know the quality of the house we want to buy</h2></a>
+                  </div>
+                  <div class="articles-elem__description">
+                    Want to buy a house but are unsure about what we should know, 
+                    here I will try to explain what we should know and check when 
+                    we want to buy a house
+                  </div>
+                  <div class="articles-elem__info">
+                    <div class="articles-elem__time-icon">
+                      <svg id="clock-filled" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2Zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41Z"></path>
+                      </svg>
+                    </div>
+                    <div class="articles-elem__time">2 min read</div><tr>
+                    <div class="articles-elem__date">25 Apr 2021</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="articles-content__main-article">
+              <!-- ELEM 1 -->
+              <div class="articles-elem main-article">
+                <div class="articles-elem__image-container">
+                  <a href=""><img src="./data/article-1.png" alt="" class="articles-elem__image"></a>
+                </div>
+                <div class="articles-elem__content">
+                  <div class="articles-elem__author">
+                    <div class="articles-elem__avatar-container">
+                      <a href="">
+                        <img src="./data/features-elem-3-customer.png" alt="" class="articles-elem__avatar">
+                      </a>
+                    </div>
+                    <div class="articles-elem__name">
+                      <a href=""><h3>Cameron Williamson</h3></a>
+                    </div>
+                  </div>
+                  <div class="articles-elem__title">
+                    <a href=""><h2>12 Things to know before buying a house</h2></a>
+                  </div>
+                  <div class="articles-elem__description">
+                    Want to buy a house but are unsure about what we should know, 
+                    here I will try to explain what we should know and check when 
+                    we want to buy a house
+                  </div>
+                  <div class="articles-elem__info">
+                    <div class="articles-elem__time-icon">
+                      <svg id="clock-filled" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2Zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41Z"></path>
+                      </svg>
+                    </div>
+                    <div class="articles-elem__time">8 min read</div><tr>
+                    <div class="articles-elem__date">25 Apr 2021</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /ARTICLE ELEMS -->
+          </div>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe-container">
+          <div class="subscribe-wrapper">
+            <div class="subscribe__images-container">
+              <div class="subscribe__image-container">
+                <img src="./data/features-elem-1.png" alt="">
+              </div>
+              <div class="subscribe__image-container">
+                <img src="./data/features-elem-1-customer.png" alt="">
+              </div>
+              <div class="subscribe__image-container">
+                <img src="./data/features-elem-2-customer.png" alt="">
+              </div>
+              <div class="subscribe__image-container">
+                <img src="./data/features-elem-2.png" alt="">
+              </div>
+            </div>
+            <div class="subscribe__content">
+              <div class="subscribe__title">
+                <h1>Subscribe For More Info and update from Hounter</h1>
+              </div>
+              <div class="subscribe__wrapper">
+                <input 
+                  type="email" name="subscribe__input" id="" 
+                  class="subscribe__input"
+                  placeholder="Your email here"
+                  >
+                <div class="subscribe__icon-container">
+                  <svg id="mail" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2l.01-12c0-1.1.89-2 1.99-2Zm8 9 8-5V6l-8 5-8-5v2l8 5Z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <button class="subscribe__button primary-button">subscribe now</button>
+              </div>
+            </div>
+            <div class="subscribe__images-container">
+              <div class="subscribe__image-container">
+                <img src="./data/cta-3.png" alt="">
+              </div>
+              <div class="subscribe__image-container">
+                <img src="./data/features-elem-3-customer.png" alt="">
+              </div>
+              <div class="subscribe__image-container">
+                <img src="./data/features-elem-4-customer.png" alt="">
+              </div>
+              <div class="subscribe__image-container">
+                <img src="./data/cta-4.png" alt="">
+              </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-bio">
+          <div class="footer-logo logo">
+            <div class="footer-logo__container logo__container">
+              <div class="footer-logo__rectangle-back logo__rectangle-back"></div>
+              <div class="footer-logo__rectangle-front logo__rectangle-front"></div>
+            </div>
+            <div class="footer-logo__title-container logo__title-container">
+              <h2>Hounter</h2>
+            </div>
+          </div>
+          <div class="footer-bio-about">
+            We provide information about properties such as houses, 
+            villas and apartments to help people find their dream home
+          </div>
+          <div class="footer-social-links">
+            <ul class="footer-social-links__list">
+              <li class="footer-social-links__elem">
+                <a href="">
+                  <div>
+                    <svg id="twitter" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22.162 5.655a8.383 8.383 0 0 1-2.402.658 4.196 4.196 0 0 0 1.84-2.314c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.17 4.17 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072 4.185 4.185 0 0 0 3.907 2.905 8.393 8.393 0 0 1-6.19 1.732 11.829 11.829 0 0 0 6.41 1.88c7.692 0 11.9-6.373 11.9-11.9 0-.18-.006-.362-.014-.54a8.495 8.495 0 0 0 2.087-2.165v-.001Z"></path>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="footer-social-links__elem">
+                <a href="">
+                  <div>
+                    <svg id="facebook" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z"></path>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="footer-social-links__elem">
+                <a href="">
+                  <div>
+                    <svg id="instagram" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm6.5-.25a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0ZM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"></path>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-property">
+            <div class="footer-links-property__title">
+              <h2>Property</h2>
+            </div>
+            <ul class="footer-links-property__list footer-list">
+              <li class="footer-list-property__elem">
+                <a href="">
+                  <div>house</div>
+                </a>
+              </li>
+              <li class="footer-list-property__elem">
+                <a href="">
+                  <div>apartment</div>
+                </a>
+              </li>
+              <li class="footer-list-property__elem">
+                <a href="">
+                  <div>villa</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-links-article">
+            <div class="footer-links-article__title">
+              <h2>Article</h2>
+            </div>
+            <ul class="footer-links-article__list footer-list">
+              <li class="footer-links-article__elem">
+                <a href="">
+                  <div>new article</div>
+                </a>
+              </li>
+              <li class="footer-links-article__elem">
+                <a href="">
+                  <div>popular article</div>
+                </a>
+              </li>
+              <li class="footer-links-article__elem">
+                <a href="">
+                  <div>most read</div>
+                </a>
+              </li>
+              <li class="footer-links-article__elem">
+                <a href="">
+                  <div>tips & tricks</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-links-contact">
+            <div class="footer-links-contact__title">
+              <h2>Contact</h2>
+            </div>
+            <ul class="footer-links-contact__list footer-list">
+              <li class="footer-links-contact__elem">
+                <address>2464 Royal Ln. Mesa, New Jersey 45463</address>
+              </li>
+              <li class="footer-links-contact__elem">(671) 555-0110</li>
+              <li class="footer-links-contact__elem">info@hounter.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    window.onload = () => {
+      /* disable dragging hyperlinks */
+      let links = [...document.getElementsByTagName('a')];
+      links.forEach(link => {
+        link.ondragstart = () => false
+      })
+      /* disable dragging hyperlinks */
+
+      /* switching menu */
+      let header = document.getElementsByClassName('header-nav__container')[0];
+      let menu = document.getElementsByClassName('header__menu-button')[0];
+      let nav = document.getElementsByTagName('nav')[0];
+      changeNav(header, menu, nav);
+      window.addEventListener('resize', () => changeNav(header, menu, nav));
+
+      function changeNav(header, menu, nav) {
+        if (header.hasChildNodes(nav) && window.innerWidth <= 768) {
+          menu.append(nav);
+          nav.className = 'burger';
+          menu.style.display = 'flex';
+          nav.style.display = 'none';
+        } else if (menu.hasChildNodes(nav) && window.innerWidth > 768) {
+          header.prepend(nav);
+          nav.className = 'line';
+          menu.style.display = 'none';
+          nav.style.display = 'block';
+        }
+      }
+
+      document.body.addEventListener('click', (e) => {
+        let belowElems = document.elementsFromPoint(e.clientX, e.clientY);
+        if (belowElems.some(elem => elem == menu) && nav.className.includes('burger')) {
+          nav.style.display = 'block';
+        } else if (!belowElems.some(elem => elem == nav) && nav.className.includes('burger')) {
+          nav.style.display = 'none';
+        }
+      })
+      /* /switching menu */
+
+      /* replace Sign Up button */
+      let mainButton = document.getElementsByClassName('header__main-action-button')[0];
+      let headerCont = document.getElementsByClassName('header__container')[0];
+      let navCont = document.getElementsByClassName('header-nav__container')[0];
+      replaceMainButton(mainButton, navCont, headerCont)
+      window.addEventListener('resize', () => replaceMainButton(mainButton, navCont, headerCont));
+      
+      function replaceMainButton(button, nav, header) {
+        if (window.innerWidth <= 576 && nav.hasChildNodes(button)) {
+          header.append(button);
+          button.style.position = 'absolute';
+          button.style.top = '68px';
+        } else if (window.innerWidth > 576 && header.hasChildNodes(button)) {
+          nav.append(button);
+          button.style.position = 'relative';
+          button.style.top = '0';
+        }
+      }
+      /* /replace Sign Up button */
+
+      /* features list scroll */
+      let leftButton = document.getElementsByClassName('features-scroll-left-button')[0];
+      let rightButton = document.getElementsByClassName('features-scroll-right-button')[0];
+      let container = document.getElementsByClassName('features-content')[0];
+      let elems = [...document.getElementsByClassName('features-content-elem')];
+      let elemWidth = elems[0].offsetWidth;
+      let gap = getComputedStyle(document.getElementsByClassName('features-content')[0]).gap;
+      let maxScrollWidth = elemWidth + parseInt(gap);
+
+      leftButton.addEventListener('click', () => {
+        container.scrollBy(-getScrollStep(container, elems, 'right'), 0);
+      });
+
+      rightButton.addEventListener('click', () => {
+        container.scrollBy(getScrollStep(container, elems, 'left'), 0);
+      });
+
+      function getScrollStep(parent, children, direction) {
+        let step = elems[0][direction] >= 0 ? elems[0][direction] : 0;
+        children.forEach(child => {
+          let elem = getElemRelativeOffset(parent, child);
+          if (elem[direction] > 5 && elem[direction] <= (maxScrollWidth + 1)) {
+            step = elem[direction];
+          }
+        });
+        return step;
+      }
+
+      container.addEventListener('wheel', checkScrollDirection);
+
+      function checkScrollDirection(e) {
+        if (e.shiftKey) e.preventDefault();
+        if (e.shiftKey && checkScrollDirectionIsUp(event)) {
+          container.scrollBy(-getScrollStep(container, elems, 'right'), 0);
+        } else if (e.shiftKey) {
+          container.scrollBy(getScrollStep(container, elems, 'left'), 0);
+        }
+      };
+
+      function checkScrollDirectionIsUp(event) {
+        if (event.wheelDelta) {
+          return event.wheelDelta > 0;
+        }
+        return event.deltaY < 0;
+      };
+
+      function setScrollSnapAlign(value) {
+        [...document.getElementsByClassName('features-content-elem')].forEach(elem => {
+          elem.style.scrollSnapAlign = value;
+        });
+      };
+
+      function getElemRelativeOffset(parent, elem) {
+        var offset = {left: 0, top: 0, bottom: 0, right: 0};
+        offset.left = Math.floor(elem.getBoundingClientRect().left) - Math.floor(parent.getBoundingClientRect().left);
+        offset.top = Math.floor(elem.getBoundingClientRect().top) - Math.floor(parent.getBoundingClientRect().top);
+        offset.bottom = Math.floor(elem.getBoundingClientRect().bottom) - Math.floor(parent.getBoundingClientRect().bottom);
+        offset.right = Math.floor(parent.getBoundingClientRect().right) - Math.floor(elem.getBoundingClientRect().right);
+        return offset;
+      };
+      /* /features list scroll */
+      
+      /* features list drag scroll */
+      [...document.getElementsByClassName('features-content-elem__image')].forEach(img => {
+        img.draggable = false;
+        img.style.draggable = 'false';
+      });
+
+      container.onmousedown = (e) => {
+        if (e.which != 1) return;
+        container.classList.add('dragovered');
+        elems.forEach(elem => {
+          elem.classList.add('dragovered');
+        })
+        let onMouseUp = document.addEventListener('mouseup', (e) => {
+          elems.forEach(elem => {
+            elem.classList.remove('dragovered');
+          });
+          container.classList.remove('dragovered');
+        })
+        document.removeEventListener('mouseup', onMouseUp, true);
+      }
+
+      elems.forEach(elem => {
+        elem.addEventListener('mousedown', (e) => {
+          if (e.which != 1) return;
+          let firstX = e.clientX;
+          let cursorPrev = {
+            x: e.clientX,
+            y: e.clientY,
+          }
+          container.style.scrollBehavior = 'unset';
+          elem.draggable = false;
+
+          document.onmousemove = (e) => {
+            moveAt(e);
+          }
+
+          const moveAt = (e) => {
+            container.scrollBy(cursorPrev.x - e.clientX, 0);
+            cursorPrev.x = e.clientX;
+          }
+
+          document.onmouseup = (e) => {
+            document.onmousemove = null;
+            container.style.scrollBehavior = null;
+
+            if (firstX - e.clientX > 0) {
+              container.scrollBy(getScrollStep(container, elems, 'left'), 0);
+            } else {
+              container.scrollBy(-getScrollStep(container, elems, 'right'), 0);
+            }
+            document.onmouseup = null;
+          };
+        })
+      })
+      /* features list drag scroll */
+
+      /* hero strengths horisontal scroll */
+      let heroContainer = document.getElementsByClassName('hero-strengths')[0];
+      let heroCards = [...document.getElementsByClassName('hero-strengths-card')];
+      /* /hero strengths horisontal scroll */
+
+      /* hero strengths horisontal drag scroll */
+      heroContainer.onmousedown = (e) => {
+        if (e.which != 1) return;
+        let firstX = e.clientX;
+        let cursorPrev = {
+          x: e.clientX,
+          y: e.clientY,
+        }
+        heroContainer.style.scrollBehavior = 'unset';
+        heroCards.forEach(card => {
+          card.classList.add('dragovered')
+        })
+
+        document.onmousemove = (e) => {
+          moveAt(e);
+        }
+
+        const moveAt = (e) => {
+          heroContainer.scrollBy((cursorPrev.x - e.clientX), 0);
+          cursorPrev.x = e.clientX;
+        }
+
+        document.onmouseup = () => {
+          heroCards.forEach(card => {
+            card.classList.remove('dragovered');
+          });
+          document.onmousemove = null;
+          document.onmouseup = null;
+          heroContainer.style.scrollBehavior = null;
+        }
+      }
+      /* /hero strengths horizontal drag scroll */
+
+      /* feedback horizontal scroll  */
+      let feedbackContainer = document.getElementsByClassName('feedback-content-scroll')[0];
+      let feedbackCards = [...document.getElementsByClassName('feedback-card')];
+      let paginationCircles = [...document.getElementsByClassName('feedback-pagination__circle-container')];
+      let activeElemIndex = 0;
+
+      setActiveElem(paginationCircles, 0);
+
+      paginationCircles.forEach((elem, index) => {
+        elem.onclick = () => {
+          activeElemIndex = index;
+          setActiveElem(paginationCircles, activeElemIndex);
+          scrollToCard(feedbackContainer, feedbackCards[activeElemIndex]);
+        }
+      })
+      
+      feedbackContainer.addEventListener('wheel', onScroll);
+      feedbackContainer.addEventListener('touchstart', onSlide);
+
+      function onScroll(e) {
+        if (e.shiftKey) {
+          e.preventDefault();
+          if (checkScrollDirectionIsUp(e) && activeElemIndex > 0) activeElemIndex--;
+          else if (!checkScrollDirectionIsUp(e) && activeElemIndex < feedbackCards.length - 1) activeElemIndex++;
+          scrollToCard(feedbackContainer, feedbackCards[activeElemIndex]);
+          setActiveElem(paginationCircles, activeElemIndex);
+        }
+      }
+
+      function onSlide(e) {
+        let firstX = e.touches[0].clientX;
+        let cursorPrev = {x: e.clientX, y: e.clientY};
+        feedbackContainer.style.scrollBehavior = 'unset';
+
+        document.ontouchmove = (e) => {
+          moveAt(e);
+        }
+
+        function moveAt(e) {
+          feedbackContainer.scrollBy(cursorPrev.x - e.clientX, 0);
+          cursorPrev.x = e.clientX;
+        }
+
+        document.ontouchend = (e) => {
+          feedbackContainer.style.scrollBehavior = 'unset';
+          scrollToCard(feedbackContainer, feedbackCards[activeElemIndex]);
+          setActiveElem(paginationCircles, activeElemIndex);
+          document.ontouchmove = null;
+          document.ontouchend = null;
+        };
+      }
+
+      function scrollToCard(container, card) {
+        let offset = getElemRelativeOffset(container, card);
+        if (window.innerWidth < 768) {
+          let gap = parseInt(getComputedStyle(container).gap);
+          container.scrollBy(offset.left - gap / 2, 0);
+        } else {
+          container.scrollBy(offset.left - card.offsetWidth / 2, 0);
+        }
+      }
+
+      function setActiveElem(elems, index) {
+        elems.forEach(elem => elem.firstElementChild.classList.remove('active'));
+        elems[index].firstElementChild.classList.add('active');
+        activeElemIndex = index;
+      }
+
+      /* /feedback horizontal scroll  */
+
+      /* feedback horizontal drag scroll  */
+      feedbackContainer.onmousedown = (e) => { dragStart(e, 'wheel') };
+      //feedbackContainer.ontouchstart = (e) => { dragStart(e, 'touch') };
+
+      function dragStart(e, source) {
+        if (e.which != 1) return;
+        let flag = source === 'wheel';
+        let firstX = (flag) ? e.clientX : e.touches.clientX;
+        let coords = (flag)
+          ? { x: e.clientX, y: e.clientY }
+          : { x: e.touches.clientX, y: e.touches.clientY };
+        feedbackContainer.style.scrollBehavior = 'unset';
+        feedbackContainer.classList.add('dragable');
+        feedbackCards.forEach(elem => elem.classList.add('dragable'));
+
+        if (flag) document.onmousemove = (e) => { moveAt(e) }
+        else document.ontouchmove = (e) => { moveAt(e) };
+
+        function moveAt(e) {
+          if (flag) e.preventDefault();
+          feedbackContainer.scrollBy(coords.x - e.clientX, 0);
+          coords.x = (flag) ? e.clientX : e.touches.clientX;
+        }
+
+        document.onmouseup = dragEnd;
+        document.ontouchend = dragEnd;
+
+        function dragEnd(e) {
+          let lastX = (flag) ? e.clientX : e.touches.clientX;
+
+          if ((firstX - lastX) < (-feedbackCards[0].offsetWidth / 2)) {
+            activeElemIndex += Math.round((firstX - lastX) / feedbackCards[0].offsetWidth);
+            if (activeElemIndex < 0) activeElemIndex = 0;
+          }
+          else if ((firstX - lastX) >= (feedbackCards[0].offsetWidth / 2)) {
+            activeElemIndex += Math.round((firstX - lastX) / feedbackCards[0].offsetWidth);
+            if (activeElemIndex > feedbackCards.length - 1) activeElemIndex = feedbackCards.length - 1;
+          }
+
+          feedbackContainer.style.scrollBehavior = null;
+          scrollToCard(feedbackContainer, feedbackCards[activeElemIndex]);
+          setActiveElem(paginationCircles, activeElemIndex);
+          feedbackContainer.classList.remove('dragable');
+          feedbackCards.forEach(elem => elem.classList.remove('dragable'));
+          document.onmousemove = null;
+          document.onmouseup = null;
+        }
+      }
+      /* /feedback horizontal drag scroll  */
+    }
+  </script>
+</html>
